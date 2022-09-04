@@ -16,6 +16,8 @@
 		0ACDC4AE28C00CE900F21CE0 /* DetailedTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACDC4AD28C00CE900F21CE0 /* DetailedTableViewTests.swift */; };
 		0ACDC4B828C00CE900F21CE0 /* DetailedTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACDC4B728C00CE900F21CE0 /* DetailedTableViewUITests.swift */; };
 		0ACDC4BA28C00CE900F21CE0 /* DetailedTableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACDC4B928C00CE900F21CE0 /* DetailedTableViewUITestsLaunchTests.swift */; };
+		0ACDC4C728C4CF0D00F21CE0 /* YemekTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACDC4C628C4CF0D00F21CE0 /* YemekTableViewCell.swift */; };
+		0ACDC4C928C4D33F00F21CE0 /* Yemekler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACDC4C828C4D33F00F21CE0 /* Yemekler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0ACDC4B328C00CE900F21CE0 /* DetailedTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DetailedTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ACDC4B728C00CE900F21CE0 /* DetailedTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedTableViewUITests.swift; sourceTree = "<group>"; };
 		0ACDC4B928C00CE900F21CE0 /* DetailedTableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedTableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0ACDC4C628C4CF0D00F21CE0 /* YemekTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekTableViewCell.swift; sourceTree = "<group>"; };
+		0ACDC4C828C4D33F00F21CE0 /* Yemekler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yemekler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				0ACDC49F28C00CE900F21CE0 /* Assets.xcassets */,
 				0ACDC4A128C00CE900F21CE0 /* LaunchScreen.storyboard */,
 				0ACDC4A428C00CE900F21CE0 /* Info.plist */,
+				0ACDC4C628C4CF0D00F21CE0 /* YemekTableViewCell.swift */,
+				0ACDC4C828C4D33F00F21CE0 /* Yemekler.swift */,
 			);
 			path = DetailedTableView;
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ACDC4C928C4D33F00F21CE0 /* Yemekler.swift in Sources */,
 				0ACDC49B28C00CE700F21CE0 /* ViewController.swift in Sources */,
+				0ACDC4C728C4CF0D00F21CE0 /* YemekTableViewCell.swift in Sources */,
 				0ACDC49728C00CE700F21CE0 /* AppDelegate.swift in Sources */,
 				0ACDC49928C00CE700F21CE0 /* SceneDelegate.swift in Sources */,
 			);
