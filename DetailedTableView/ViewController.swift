@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         let y13 = Yemekler(yemekId: 13, yemekAdi: "Sütlaç", yemekResimAdi: "sutlac", yemekFiyat: 10.0)
         let y14 = Yemekler(yemekId: 14, yemekAdi: "Tiramisu", yemekResimAdi: "tiramisu", yemekFiyat: 16.0)
         //Verilerin Listeye Eklenmesi
-        yemeklerListesi.append(y1)
+        /*yemeklerListesi.append(y1)
         yemeklerListesi.append(y2)
         yemeklerListesi.append(y3)
         yemeklerListesi.append(y4)
@@ -49,7 +49,10 @@ class ViewController: UIViewController {
         yemeklerListesi.append(y11)
         yemeklerListesi.append(y12)
         yemeklerListesi.append(y13)
-        yemeklerListesi.append(y14)
+        yemeklerListesi.append(y14) */
+        self.yemeklerListesi.append(contentsOf: [
+        y1,y2,y3,y4,y5,y6,y7,y8,y9,y10,y11,y12,y13,y14
+        ])
         
         
     }
